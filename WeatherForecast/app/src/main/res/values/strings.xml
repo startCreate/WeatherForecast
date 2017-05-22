@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="app_name">Weather Forecast</string>
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="error_message"> An error has occurred. Try again by clicking REFRESH </string>
+
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_location_default" translatable="false">Kharkiv</string>
+    <string name="pref_units_label">Temperature Units</string>
+    <string name="pref_units_label_metric">Metric</string>
+    <string name="pref_units_label_imperial">Imperial</string>
+    <string name="pref_units_key" translatable="false">units</string>
+    <string name="pref_units_metric" translatable="false">metric</string>
+    <string name="pref_units_imperial" translatable="false">imperial</string>
+
+       <string name="format_full_friendly_date">
+        <xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g>
+    </string>
+    <string name="format_temperature_celsius">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0C
+    </string>
+
+    <string name="format_temperature_fahrenheit">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0F
+    </string>
+
+    <string name="format_wind_kmh">
+        <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+    <string name="format_wind_mph">
+        <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+    <string name="condition_2xx">Буря</string>
+    <string name="condition_3xx">изморось</string>
+    <string name="condition_500">Легкий дождь</string>
+    <string name="condition_501">Умеренный дождь</string>
+    <string name="condition_502">Ливень</string>
+    <string name="condition_503">Intense Rain</string>
+    <string name="condition_504">Extreme Rain</string>
+    <string name="condition_511">Ледяной дождь</string>
+    <string name="condition_520">Light Shower</string>
+    <string name="condition_521">Shower</string>
+    <string name="condition_600">Небольшой снег</string>
+    <string name="condition_601">Cнег</string>
+    <string name="condition_602">Сильный снег</string>
+    <string name="condition_611">мокрый снег</string>
+    <string name="condition_612">Shower Sleet</string>
+    <string name="condition_615">Дождь и снег</string>
+    <string name="condition_616">Дождь и снег</string>
+    <string name="condition_701">дымка</string>
+    <string name="condition_711">дым</string>
+    <string name="condition_721">Мгла</string>
+    <string name="condition_731">Песок, пыль</string>
+    <string name="condition_741">Туман</string>
+    <string name="condition_751">песок</string>
+    <string name="condition_761">Пыль</string>
+    <string name="condition_762">Вулканический пепел</string>
+    <string name="condition_771">Шквалы</string>
+    <string name="condition_781">Торнадо</string>
+    <string name="condition_800">ясно</string>
+    <string name="condition_801">Ясно</string>
+    <string name="condition_804">Облачность</string>
+    <string name="condition_900">Торнадо</string>
+    <string name="condition_901">Тропический шторм</string>
+    <string name="condition_902">Ураган</string>
+    <string name="condition_903">Холодно</string>
+    <string name="condition_904">Жарко</string>
+    <string name="condition_905">Ветренно</string>
+    <string name="condition_906">Град</string>
+    <string name="condition_951">штиль</string>
+    <string name="condition_952">Легкий бриз</string>
+    <string name="condition_953">Бриз</string>
+    <string name="condition_954">Бриз</string>
+    <string name="condition_955">Свежий бриз</string>
+    <string name="condition_956">Сильный бриз</string>
+    <string name="condition_957">Сильный ветер</string>
+    <string name="condition_958">Шторм</string>
+    <string name="condition_959">Сильная буря</string>
+    <string name="condition_960">Штром</string>
+    <string name="condition_961">Сильный шторм</string>
+    <string name="condition_962">Ураган</string>
+
+    <string name="condition_unknown">Unknown (<xliff:g id="conditionId">%1$d</xliff:g>)</string>
+
+     <string name="format_temperature">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0
+    </string>
+    <string name="format_humidity">
+        <xliff:g id="humidity">%1.0f</xliff:g> %%
+    </string>
+
+    <string name="format_pressure">
+        <xliff:g id="pressure">%1.0f</xliff:g> hPa
+    </string>
+
+
+</resources>
